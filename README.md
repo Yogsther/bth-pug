@@ -7,3 +7,8 @@
 5. Profit!
 
 Now everytime you save your document, all the pug files will be updated and saved into /dist/ :)
+
+
+#### Why /docs ?
+
+Github pages is pointed there, it redirects to /dist :)
