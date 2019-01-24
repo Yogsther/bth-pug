@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #c3c4c3;
+}
+
+#header{
+    height: 80px;
+    width: 100%;
+    background: #ef5a59;
+}
+
+#logo{
+    height: 80px;
+}
+
+#wrap{
+    padding: 10px;
+}
+
+.block{
+    display: block;
+    background: #ffffff;
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+#burger-button{
+    float: right;
+    position: relative;
+    height: 50px;
+    top: 15px;
+    right: 15px;
+}
