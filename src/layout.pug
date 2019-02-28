@@ -8,15 +8,17 @@ html(lang="en")
         title Bildterapihuset
     body
         div(id="burger")
-            span.link Startsida 
-            span.link Aktuellt   
-            span.link Vi Bildterapeuter
-            span.link Resurser och länkar
-            span.link Kontakt
-        div#burger
-            img#logo(src="img/logo.png", alt="")
-            img#burger-button(src="img/burger.png", alt="", onclick="toggle_burger()")
-        div#wrap
+            span(class="link") Startsida 
+            span(class="link") Aktuellt   
+            span(class="link") Vi Bildterapeuter
+            span(class="link") Resurser och länkar
+            span(class="link") Kontakt
+        div(id="header")
+            div#header-wrap
+                img(src="img/logo.png", id="logo", alt="")
+                img(src="img/burger.png", id="burger-button", alt="", onclick="toggle_burger()")
+        div(id="wrap")
             block content
+
 
         script(src="js/code.js")

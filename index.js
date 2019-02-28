@@ -16,7 +16,7 @@ function render(){
         } catch(e){
             console.log(e)
         }
-        fs.writeFileSync("dist/"+file.substr(0, file.indexOf(".")) + ".html", html);
+        fs.writeFileSync("docs/"+file.substr(0, file.indexOf(".")) + ".html", html);
     }
 
     console.count("Rendered!")

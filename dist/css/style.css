@@ -5,6 +5,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
     background: #c3c4c3;
 }
 
@@ -15,8 +16,14 @@ body{
     box-shadow: 0px 4px 0px #6a2738;
 }
 
+#header-wrap{
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
 #logo{
-    left: 10px;
     position: relative;
     height: 80px;
 }
@@ -38,7 +45,7 @@ body{
     z-index: 100;
 }
 
-.block{
+.block, .welcome{
     display: block;
     background: #ffffff;
     padding: 10px;
@@ -50,8 +57,14 @@ body{
     max-width: 700px;
     margin: 0 auto;
     position: relative;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
+}
+
+.welcome{
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 5px 0px black;
 }
 
 
@@ -75,7 +88,6 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     height: 50px;
     top: 15px;
-    right: 15px;
     cursor: pointer;
     z-index: 101;
 }
@@ -87,7 +99,7 @@ h1, h2, h3, h4, h5, h6{
     width: 80%;
     position: relative;
     top: 100px;
-    left: 4%;
+    left: 30px;
     margin-top: 20px;
     font-size: 20px;
     cursor: pointer;
@@ -95,4 +107,20 @@ h1, h2, h3, h4, h5, h6{
 
 .link:hover{
     color: white;
+}
+
+.links{
+    position: relative;
+    display: block;
+    top: -55px;
+    width: 670px;
+    left: 80px;
+}
+
+.link-header{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
