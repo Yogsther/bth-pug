@@ -1,3 +1,7 @@
+### Dokumentation
+
+Vid under 800px bredd formateras title-länkarna till en burger meny.
+
 ### How to use PUG-Live updater
 
 1. Drop index.js into your map root
