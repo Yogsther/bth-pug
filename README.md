@@ -28,7 +28,7 @@ Stilen för hemsidan är klarstilad och ramverket för hemsidan är klar.
 ##### Vecka 3
 Implemiterat Burger-meny med JavaScript.
 
-##### Vecka 3
+##### Vecka 4
 Fixat så att på större skärmar flyttas menyn från burger till headern. (Vid 800+px bredd)
 
 
