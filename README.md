@@ -11,6 +11,7 @@ Hemsidan funkar som den ska på:
   * Chrome: macOS, Windows, Linux, IOS och Android
   * Firefox: macOS, Windows, Linux
   * Safari: macOS, IOS (Windows ej testat)
+  
 Hemsidan funkar inte lika bra på:
   * Internet explorer: Javascript problem
   * Microsoft Edge: Javascript problem
